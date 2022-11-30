@@ -19,12 +19,7 @@ window.onload = function () {
 
     // Dynamic navigation active links
     let navigation = document.querySelectorAll(".navigation a");
-
-    navigation.forEach((link) => {
-      if (link.href.includes(`${url}`)) {
-        link.classList.add("active-link");
-      }
-    });
+    navigation[0].classList.add("active-link");
 
     //Stats counting animation
     let numberStats = document.querySelectorAll(".number-stats");
