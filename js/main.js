@@ -1,3 +1,4 @@
+alert("hi");
 window.onload = function () {
   let url = document.location.pathname;
 
