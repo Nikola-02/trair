@@ -11,7 +11,7 @@ $(document).ready(() => {
   }
 
   //INDEX.HTML START
-  if (url == "/" || url.includes("/index.html")) {
+  if (url == "/trair/" || url.includes("/index.html")) {
     // OnClick hamburger transform
     let hamburger = document.querySelector(".hamburger-menu");
 
