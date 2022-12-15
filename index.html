@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- META -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- LINKS -->
+    <link rel="stylesheet" type="text/css" href="css/style-min.css" />
+
+    <!-- FONT AWESOME -->
+    <script
+      src="https://kit.fontawesome.com/568cdc5c3b.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- FAVICON -->
+    <link rel="favicon" type="image/x-icon" href="img/favicon.ico" />
+
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <!-- TITLE -->
+    <title>Trair</title>
+  </head>
+  <body>
+    <!-- HEADER START -->
+    <header>
+      <div class="header-wrapper">
+        <div id="logo">
+          <a href="index.html">
+            <img src="img/logo.png" alt="Trair logo"/>
+          </a>
+        </div>
+        <nav class="navigation"></nav>
+        <div class="hamburger-menu">
+          <div class="hamburger-bar"></div>
+        </div>
+      </div>
+      <div id="parent-mobile">
+        <nav class="nav-menu"></nav>
+      </div>
+    </header>
+    <!-- HEADER END -->
+    <!-- MAIN START -->
+    <main>
+      <div class="background-wrapper">
+        <div id="background-image">
+          <img src="img/airplane1.png" alt="Airplane in sky"/>
+          <div id="title">
+            <h1>TRAIR<span class="title-dot">.</span></h1>
+            <p>Safest airline in the world</p>
+            <a href="contact.html">Contact</a>
+          </div>
+        </div>
+      </div>
+      <div class="about-us">
+        <div id="about-us-text">
+          <h1>About us</h1>
+          <p>We are safest, fastest and cheapest Airline in the world.</p>
+          <p>Our agency will take care for all of our passengers.</p>
+          <p class="margin-p">Read more about us and our history here.</p>
+          <a href="about-us.html">About us</a>
+        </div>
+        <div id="about-us-img">
+          <img src="img/about-us-1.jpg" alt="One of our airplanes"/>
+          <img src="img/about-us-2.jpg" class="second-img" alt="One of our airports"/>
+        </div>
+      </div>
+      <div class="counting-wrapper">
+        <div class="counting-title">
+          <h2>Statistics of our company</h2>
+        </div>
+        <div class="counting-content"></div>
+      </div>
+      <div class="recommended-flights-wrapper">
+        <div class="recommended-title">
+          <h2>Recommended flights</h2>
+          <div class="filter-recommended">
+            <p>Filter by destination:</p>
+            <select id="filterSelect"></select>
+          </div>
+        </div>
+        <div class="recommended-content"></div>
+      </div>
+      <div class="testimonial-wrapper">
+        <div class="testimonial-title">
+          <h2>Passengers reviews</h2>
+        </div>
+        <div class="testimonial-content">
+          <div class="passenger-content"></div>
+          <div class="passenger-icons"></div>
+        </div>
+      </div>
+
+      <!-- Modal START -->
+      <div class="modal"></div>
+      <div class="modal_timer">
+        <button id="modal-close">&times;</button>
+        <h2>JOB COMPETITION EXPIRES IN: </h2>
+        <span id="timer-show"></span>
+        <a href="contact.html" target="_blank">CONTACT US</a>
+      </div> 
+      <!-- Modal END -->
+
+      <!-- Scroll btn START -->
+      <div class="scroll-to-top">
+        <i class="fa-sharp fa-solid fa-arrow-up scroll-to-top-btn"></i>
+      </div>
+      <!-- Scroll btn END -->
+    </main>
+    <!-- MAIN END -->
+    <!-- FOOTER START -->
+    <footer>
+      <div class="footer-wrapper">
+        <div class="footer-left">
+          <h3>TRAIR<span> AIRLINE</span></h3>
+          <div class="footer-links"></div>
+          <div class="footer-copyright">
+            <p>Copyright 2022 <strong>Trair</strong> All rights reserved</p>
+          </div>
+        </div>
+        <div class="footer-center"></div>
+        <div class="footer-right">
+          <div class="footer-about">
+            <p>
+              <span>About the company</span><strong>Trair airline</strong> is
+              fastest, cheapest and safest airline company in the world. We are
+              known for quality and luxury everywhere in world.
+            </p>
+          </div>
+          <div class="footer-social"></div>
+        </div>
+      </div>
+    </footer>
+    <!-- FOOTER END -->
+
+    <!-- jQuery START -->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <!-- jQuery END -->
+    
+    <!-- JS START -->
+    <script type="text/javascript" src="js/main-min.js"></script>
+    <!-- JS END -->
+  </body>
+</html>
