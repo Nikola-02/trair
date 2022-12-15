@@ -91,7 +91,7 @@ $(document).ready(() => {
   }
 
   //INDEX.HTML START
-  if (url == "/" || url.includes("/index.html")) {
+  if (url == "/trair/" || url.includes("/index.html")) {
 
     //Dynamic counting content
     let countingIcon=["ticket", "face-smile", "user-tie", "plane-up"];
